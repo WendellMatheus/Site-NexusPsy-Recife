@@ -22,14 +22,6 @@ body {
     rgba(0, 212, 255, 1) 100%
   );
 }
-/* 
-.header-content {
-  display: flex;
-  width: 100%;
-  background-image: url(img-header.jpg);
-  background-repeat: no-repeat;
-  padding-bottom: 100%;
-} */
 
 
 .header-content .logo-nav {
@@ -46,13 +38,8 @@ body {
   height: 80px;
   padding: 20px;
   /* position: fixed; */
-  background: rgb(14, 10, 74);
-  background: linear-gradient(
-    0deg,
-    rgba(14, 10, 74, 1) 11%,
-    rgba(55, 54, 130, 1) 33%,
-    rgba(0, 212, 255, 1) 100%
-  );
+  background: rgb(62,204,221);
+  background: linear-gradient(0deg, rgba(62,204,221,1) 0%, rgba(255,210,118,1) 100%);
 }
 
 .box-nav .box-list {  
@@ -160,13 +147,8 @@ body {
   font-size: max(4rem, 4vw);
   text-align: center;
   padding: 10px;
-  background: rgb(13, 10, 70);
-  background: linear-gradient(
-    0deg,
-    rgba(13, 10, 70, 1) 0%,
-    rgba(35, 39, 139, 1) 31%,
-    rgba(0, 212, 255, 1) 99%
-  );
+  background: rgb(10,219,221);
+background: radial-gradient(circle, rgba(10,219,221,1) 0%, rgba(255,207,81,1) 100%);
   border-radius: 5px;
   border: 2px solid white;
 }
@@ -307,19 +289,21 @@ body {
   font-family: Arial;
   display: inline-block;
   font-size: 20px;
-  width: 150px;
+  width: 200px;
   text-align: center;
   border: solid 1px rgba(0, 212, 255, 1);
+  border-radius: 10px;
   color: white;
   background: rgb(35, 31, 89);
 }
 
 .input {
   font: 2.1em sans-serif;
-  width: 85%;
+  width: 55%;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   border: 1px solid rgba(0, 212, 255, 1);
+  border-radius: 5px;
 }
 
 .campo-mensagem {
@@ -327,12 +311,14 @@ body {
   box-sizing: border-box;
 
   /* Para harmonizar o look & feel das bordas nos campos de texto*/
+  box-sizing: border-box;
   border: 1px solid rgba(0, 212, 255, 1);
-  width: 85%;
+  width: 55%;
   font: 2.5em sans-serif;
   vertical-align: top;
-  height: 5em;
+  height: 4em;
   resize: vertical;
+  border-radius: 10px;
 }
 
 .button {
@@ -341,13 +327,8 @@ body {
 }
 .button-msg {
   cursor: pointer;
-  background: rgb(35, 31, 89);
-  background: linear-gradient(
-    0deg,
-    rgba(35, 31, 89, 1) 6%,
-    rgba(91, 90, 168, 1) 38%,
-    rgba(0, 212, 255, 1) 100%
-  );
+  background: rgb(218,173,54);
+ 
   padding: 1.5rem;
   width: 20rem;
   margin: 10px;
@@ -355,7 +336,7 @@ body {
   border: 2px solid rgba(0, 212, 255, 1);
   font-family: Arial;
   font-size: 1.5rem;
-  color: whitesmoke;
+  color: rgba(35, 31, 89, 1);;
 }
 
 .button-msg:hover {
