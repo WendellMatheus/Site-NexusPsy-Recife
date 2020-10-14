@@ -6,4 +6,5 @@
 
 🚀 _Tecnologias_  **_HTML5_** | **_CSS3_** 
 
-![img-nexus-pssyy](https://user-images.githubusercontent.com/66651329/95683981-bbf7b200-0bc4-11eb-9ba8-e948a43f3e47.JPG)
+![img-nexus-psy](https://user-images.githubusercontent.com/66651329/96027900-fc5a6880-0e2e-11eb-8d36-254e4a53c9e7.JPG)
+
