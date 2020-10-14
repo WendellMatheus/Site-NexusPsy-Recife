@@ -6,5 +6,7 @@
 
 🚀 _Tecnologias_  **_HTML5_** | **_CSS3_** 
 
+:mag: [Click here to view the result!](https://site-nexus-psy-recife.vercel.app/) :mag_r
+
 ![img-nexus-psy](https://user-images.githubusercontent.com/66651329/96027900-fc5a6880-0e2e-11eb-8d36-254e4a53c9e7.JPG)
 
